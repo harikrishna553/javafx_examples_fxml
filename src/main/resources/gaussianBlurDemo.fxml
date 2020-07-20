@@ -11,10 +11,7 @@
 		stroke="black" strokeWidth="2" 
 		x="50" y = "50" effect="$shadow1">
 		
-		<BoxBlur fx:id = "shadow1" 
-			width="10" 
-			height="5"
-			iterations="2"/>
+		<GaussianBlur fx:id = "shadow1" radius="3"/>
 	</Text>
 	
 	
@@ -23,10 +20,7 @@
 		stroke="black" strokeWidth="2" 
 		x="50" y = "150" effect="$shadow1">
 		
-		<BoxBlur fx:id = "shadow1" 
-			width="5" 
-			height="10"
-			iterations="2"/>
+		<GaussianBlur fx:id = "shadow1" radius="3"/>
 	</Text>
 	
 	
@@ -35,10 +29,7 @@
 		stroke="black" strokeWidth="2" 
 		x="50" y = "250" effect="$shadow1">
 		
-		<BoxBlur fx:id = "shadow1" 
-			width="10" 
-			height="5"
-			iterations="1"/>
+		<GaussianBlur fx:id = "shadow1" radius="5"/>
 	</Text>
 	
 	
@@ -47,10 +38,7 @@
 		stroke="black" strokeWidth="2" 
 		x="50" y = "350" effect="$shadow1">
 		
-		<BoxBlur fx:id = "shadow1" 
-			width="5" 
-			height="10"
-			iterations="1"/>
+		<GaussianBlur fx:id = "shadow1" radius="7"/>
 	</Text>
 	
 </Group>

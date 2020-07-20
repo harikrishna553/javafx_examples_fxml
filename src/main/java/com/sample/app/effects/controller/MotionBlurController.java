@@ -7,17 +7,17 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.text.Text;
 
-public class BoxBlurController  implements Initializable {
+public class MotionBlurController implements Initializable {
 
 	@FXML
 	private Text text1;
-	
+
 	@FXML
 	private Text text2;
-	
+
 	@FXML
 	private Text text3;
-	
+
 	@FXML
 	private Text text4;
 

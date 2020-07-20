@@ -69,6 +69,10 @@ public class App {
 		InnerShadow innerShadow;
 		
 		BoxBlur boxBlur1;
+		
+		GaussianBlur gaussianBlur1;
+		
+		MotionBlur motionBlur;
 
 		
 	}

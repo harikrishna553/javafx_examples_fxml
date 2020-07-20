@@ -7,7 +7,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.text.Text;
 
-public class BoxBlurController  implements Initializable {
+public class GaussianBlurController implements Initializable {
 
 	@FXML
 	private Text text1;
