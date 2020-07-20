@@ -1,0 +1,37 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Group xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.controller.ArcController">
+
+	<Arc fx:id="arc1"  fill="lightsalmon" stroke="black" strokeWidth="5"
+		centerX="160"
+		centerY="150"
+		radiusX="150"
+		radiusY="55"
+		startAngle="45"
+		length="240"
+		type="round"/>
+		
+	<Arc fx:id="arc2"  fill="lightsalmon" stroke="black" strokeWidth="5"
+		centerX="500"
+		centerY="150"
+		radiusX="150"
+		radiusY="55"
+		startAngle="45"
+		length="240"
+		type="chord"/>
+		
+	<Arc fx:id="arc3"  fill="lightsalmon" stroke="black" strokeWidth="5"
+		centerX="850"
+		centerY="150"
+		radiusX="150"
+		radiusY="55"
+		startAngle="45"
+		length="240"
+		type="open"/>
+		
+</Group>
+
+

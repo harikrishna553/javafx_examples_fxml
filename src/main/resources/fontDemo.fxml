@@ -1,0 +1,14 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.controller.FontController">
+	
+	<Text fx:id = "text" text="Learning JavaFX"  fill="lightgreen"
+	style="-fx-font-weight: bold; -fx-font-size: 50; -fx-font-family: Verdana;"
+	stroke="darkblue" strokeWidth="2" 
+	underline="true"/>
+
+</StackPane>
+

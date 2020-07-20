@@ -1,0 +1,27 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Group xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.controller.QuadCurveController">
+
+	<QuadCurve fx:id="quadCurve1"  fill="lightsalmon" stroke="black" strokeWidth="5"
+		startX="50"
+		startY="70"
+		controlX="250"
+		controlY="250"
+		endX="350"
+		endY="70"
+		/>
+		
+	<QuadCurve fx:id="quadCurve1"  fill="lightsalmon" stroke="black" strokeWidth="5"
+		startX="350"
+		startY="420"
+		controlX="200"
+		controlY="250"
+		endX="350"
+		endY="70"
+		/>
+
+		
+</Group>

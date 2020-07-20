@@ -1,0 +1,15 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.controller.HelloWorldController">
+
+	<Rectangle fx:id="rectangle" arcHeight="30" arcWidth="30" fill="black"
+		 width="300" height="100" smooth="true" stroke="green" strokeWidth="5"
+		 strokeType="inside"/>
+	
+	<Text fx:id = "text" fill="lightsalmon" text="Hello World" style="-fx-font-weight: bold; -fx-font-size: 30" />
+
+</StackPane>
+

@@ -1,0 +1,16 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Group xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.controller.PolygonController">
+
+	<Polyline fx:id="polyline1"  fill="lightgreen" stroke="black" strokeWidth="5"
+		points="15.0, 350.0, 150.0, 350.0, 75.0, 150.0"/>
+		
+	<Polyline fx:id="polyline2"  fill="lightsalmon" stroke="black" strokeWidth="5"
+		points="100.0, 50.0, 150.0, 50.0, 150.0, 100.0, 100.0, 150.0"/>
+	
+</Group>
+
+

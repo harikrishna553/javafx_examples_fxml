@@ -1,0 +1,21 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Group xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.controller.CubicCurveController">
+
+		
+	<CubicCurve fx:id="cubicCurve"  fill="lightsalmon" stroke="black" strokeWidth="5"
+		startX="50"
+		startY="400"
+		controlX1="150"
+		controlY1="100"
+		controlX2="250"
+		controlY2="500"
+		endX="400"
+		endY="70"
+		/>
+
+		
+</Group>

@@ -1,0 +1,13 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Group xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.controller.EllipseController">
+
+	<Ellipse fx:id="ellipse1" centerX="150" centerY="100"
+		radiusX ="100" radiusY="50"
+		fill="lightgreen" stroke="black" strokeWidth="5"/>
+	
+</Group>
+

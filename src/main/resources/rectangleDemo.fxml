@@ -1,0 +1,26 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Group xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.controller.RectangleController">
+
+
+	<Rectangle fx:id="rectangle1" arcHeight="30" arcWidth="30" fill="lightblue"
+		width="100" height="50" smooth="true" stroke="black" strokeWidth="5" 
+		x="50" y = "50" strokeDashArray="10"/>
+		
+	<Rectangle fx:id="rectangle2" fill="lightgreen"
+		width="100" height="50" smooth="true" stroke="black" strokeWidth="5"
+		x= "170" y = "50"/>
+		
+	<Rectangle fx:id="rectangle2" arcHeight="30" arcWidth="30" fill="lightgray"
+		width="100" height="50" smooth="true" stroke="black" strokeWidth="5"
+		x= "290" y = "50" strokeDashArray="10"/>
+		
+	<Rectangle fx:id="rectangle2" fill="lightpink"
+		width="100" height="50" smooth="true" stroke="black" strokeWidth="5"
+		x= "410" y = "50"/>
+	
+</Group>
+

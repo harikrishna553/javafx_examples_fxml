@@ -1,0 +1,26 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Group xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.controller.PathController">
+
+	<Path fx:id="path1" fill="lightsalmon" stroke="black" strokeWidth="5">
+	
+		<elements>
+			<MoveTo x="50" y="100"/>
+			<HLineTo x="70.0"/>
+			
+			<QuadCurveTo x="120.0" y="360" controlX="100.0" controlY="0.0" />
+			
+			<LineTo x="175" y="55" />
+			<ArcTo x="50" y="50" radiusX="50" radiusY="50" />
+			<ClosePath />
+		</elements>
+	
+	</Path>
+
+		
+</Group>
+
+

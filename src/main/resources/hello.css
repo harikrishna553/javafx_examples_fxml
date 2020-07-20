@@ -1,0 +1,9 @@
+#myText {
+    -fx-fill: yellow;
+    -fx-stroke: darkblue;
+    -fx-stroke-width: 2;
+	-fx-font-weight: bold; 
+	-fx-font-size: 50; 
+	-fx-font-family: Verdana; 
+	-fx-font-style: italic
+}

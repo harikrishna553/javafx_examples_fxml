@@ -1,0 +1,15 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Group xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.controller.LineController">
+
+	<Line fx:id="line1" stroke="black" startX="10" startY="50" endX="350" endY="50" strokeWidth="10"/>
+	
+	<Line fx:id="line2" stroke="green" startX="10" startY="90" endX="350" endY="90" strokeWidth="10" strokeLineCap="round"/>
+	
+	<Line fx:id="line3" stroke="red" startX="10" startY="130" endX="350" endY="130" strokeWidth="10"/>
+	
+</Group>
+
