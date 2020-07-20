@@ -1,0 +1,56 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+
+<Group xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.effects.controller.InnerShadowEffectController">
+
+	<Text fx:id = "text1" text="Learning JavaFX"  fill="white"
+		style="-fx-font-weight: bold; -fx-font-size: 50; -fx-font-family: Verdana; -fx-font-style: italic"
+		stroke="black" strokeWidth="2" 
+		x="50" y = "50" effect="$shadow1">
+		
+		<BoxBlur fx:id = "shadow1" 
+			width="10" 
+			height="5"
+			iterations="2"/>
+	</Text>
+	
+	
+	<Text fx:id = "text1" text="Learning JavaFX"  fill="white"
+		style="-fx-font-weight: bold; -fx-font-size: 50; -fx-font-family: Verdana; -fx-font-style: italic"
+		stroke="black" strokeWidth="2" 
+		x="50" y = "150" effect="$shadow1">
+		
+		<BoxBlur fx:id = "shadow1" 
+			width="5" 
+			height="10"
+			iterations="2"/>
+	</Text>
+	
+	
+	<Text fx:id = "text1" text="Learning JavaFX"  fill="white"
+		style="-fx-font-weight: bold; -fx-font-size: 50; -fx-font-family: Verdana; -fx-font-style: italic"
+		stroke="black" strokeWidth="2" 
+		x="50" y = "250" effect="$shadow1">
+		
+		<BoxBlur fx:id = "shadow1" 
+			width="10" 
+			height="5"
+			iterations="1"/>
+	</Text>
+	
+	
+	<Text fx:id = "text1" text="Learning JavaFX"  fill="white"
+		style="-fx-font-weight: bold; -fx-font-size: 50; -fx-font-family: Verdana; -fx-font-style: italic"
+		stroke="black" strokeWidth="2" 
+		x="50" y = "350" effect="$shadow1">
+		
+		<BoxBlur fx:id = "shadow1" 
+			width="5" 
+			height="10"
+			iterations="1"/>
+	</Text>
+	
+</Group>

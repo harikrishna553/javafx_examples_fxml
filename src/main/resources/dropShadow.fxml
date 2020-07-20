@@ -1,0 +1,50 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+
+<Group xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.effects.controller.DropShadowEffectController">
+
+	<Text fx:id = "text1" text="Learning JavaFX"  fill="white"
+		style="-fx-font-weight: bold; -fx-font-size: 50; -fx-font-family: Verdana; -fx-font-style: italic"
+		stroke="black" strokeWidth="2" 
+		x="50" y = "50" effect="$shadow1">
+		
+		<DropShadow fx:id = "shadow1" radius="5.0" color="gray" 
+			offsetX="6"
+			offsetY="6"/>
+	</Text>
+	
+	<Text fx:id = "text2" text="Learning JavaFX"  fill="white"
+		style="-fx-font-weight: bold; -fx-font-size: 50; -fx-font-family: Verdana; -fx-font-style: italic"
+		stroke="black" strokeWidth="2" 
+		x="50" y = "150" effect="$shadow1">
+		
+		<DropShadow fx:id = "shadow1" radius="5.0" color="gray" 
+			offsetX="6"
+			offsetY="-6"/>
+	</Text>
+	
+	<Text fx:id = "text3" text="Learning JavaFX"  fill="white"
+		style="-fx-font-weight: bold; -fx-font-size: 50; -fx-font-family: Verdana; -fx-font-style: italic"
+		stroke="black" strokeWidth="2" 
+		x="50" y = "250" effect="$shadow1">
+		
+		<DropShadow fx:id = "shadow1" radius="5.0" color="gray" 
+			offsetX="-6"
+			offsetY="6"/>
+	</Text>
+	
+	<Text fx:id = "text4" text="Learning JavaFX"  fill="white"
+		style="-fx-font-weight: bold; -fx-font-size: 50; -fx-font-family: Verdana; -fx-font-style: italic"
+		stroke="black" strokeWidth="2" 
+		x="50" y = "350" effect="$shadow1">
+		
+		<DropShadow fx:id = "shadow1" radius="5.0" color="gray" 
+			offsetX="-6"
+			offsetY="-6"/>
+	</Text>
+	
+	
+</Group>

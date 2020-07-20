@@ -16,6 +16,7 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontPosture;
 import javafx.scene.text.FontWeight;
+import javafx.scene.effect.*;
 
 public class App {
 
@@ -58,6 +59,16 @@ public class App {
 		PathElement pathElement;
 		
 		Path path;
+		
+		Shadow shadow = new Shadow();
+		shadow.setRadius(5);
+		shadow.setBlurType(BlurType.THREE_PASS_BOX);
+		
+		DropShadow dropShaddow;
+		
+		InnerShadow innerShadow;
+		
+		BoxBlur boxBlur1;
 
 		
 	}
