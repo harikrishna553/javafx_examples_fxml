@@ -79,6 +79,14 @@ public class App {
 		Bloom bloom;
 		
 		Glow glow;
+		
+		Light light;
+		
+		Lighting lighting;
+		
+		ColorAdjust colorAdjust;
+		
+		ColorInput colorInput;
 
 		
 	}
