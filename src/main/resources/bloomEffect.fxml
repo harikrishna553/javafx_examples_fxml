@@ -1,0 +1,22 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.effects.controller.BloomEffectController">
+
+	<Rectangle fx:id="rectangle1" arcHeight="30" arcWidth="30" fill="green"
+		width="300" height="50" smooth="true" stroke="black" strokeWidth="5" />
+	
+	<Text fx:id = "text1" text="JavaFX"
+	style="-fx-font-weight: bold; -fx-font-size: 50; -fx-font-family: Verdana; -fx-font-style: italic"
+	stroke="darkblue" strokeWidth="2" 
+	underline="true"
+	fill="yellow"
+	effect="$bloomEffect1">
+	
+		<Bloom fx:id="bloomEffect1" threshold="0.1f" />
+	</Text>
+
+</StackPane>

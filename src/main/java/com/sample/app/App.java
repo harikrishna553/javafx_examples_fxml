@@ -73,6 +73,12 @@ public class App {
 		GaussianBlur gaussianBlur1;
 		
 		MotionBlur motionBlur;
+		
+		Blend blend;
+		
+		Bloom bloom;
+		
+		Glow glow;
 
 		
 	}

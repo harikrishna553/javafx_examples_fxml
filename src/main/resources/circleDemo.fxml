@@ -5,15 +5,15 @@
 
 <Group xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.controller.CircleController">
 
-	<Circle fx:id="circle1" centerX="50" centerY="120" radius="30" fill="lightgreen" stroke="black" strokeWidth="5"/>
+	<Circle fx:id="circle1" centerX="150" centerY="120" radius="30" fill="lightgreen" stroke="black" strokeWidth="5"/>
 	
-	<Circle fx:id="circle1" centerX="150" centerY="120" radius="30" fill="pink" stroke="black" strokeWidth="5"/>
+	<Circle fx:id="circle2" centerX="150" centerY="120" radius="30" fill="pink" stroke="black" strokeWidth="5"/>
 	
-	<Circle fx:id="circle1" centerX="250" centerY="120" radius="30" fill="red" stroke="black" strokeWidth="5"/>
+	<Circle fx:id="circle3" centerX="250" centerY="120" radius="30" fill="red" stroke="black" strokeWidth="5"/>
 	
-	<Circle fx:id="circle1" centerX="350" centerY="120" radius="30" fill="lightblue" stroke="black" strokeWidth="5"/>
+	<Circle fx:id="circle4" centerX="350" centerY="120" radius="30" fill="lightblue" stroke="black" strokeWidth="5"/>
 	
-	<Circle fx:id="circle1" centerX="450" centerY="120" radius="30" fill="lightgray" stroke="black" strokeWidth="5"/>
+	<Circle fx:id="circle5" centerX="450" centerY="120" radius="30" fill="lightgray" stroke="black" strokeWidth="5"/>
 	
 	
 </Group>

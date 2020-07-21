@@ -1,0 +1,15 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Group xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.controller.BlendController" fx:id="group1" >
+
+	<Circle fx:id="circle1" centerX="200" centerY="150" radius="50" fill="red" opacity="1.0"/>
+	
+	<Circle fx:id="circle2" centerX="150" centerY="100" radius="50" fill="green" opacity="0.5"/>
+	
+	<Circle fx:id="circle3" centerX="250" centerY="100" radius="50" fill="blue" opacity="0.5"/>
+		
+</Group>
+
