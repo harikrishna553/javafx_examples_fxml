@@ -1,0 +1,26 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Group xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.effects.controller.DisplacementMapController">
+	
+	<Text fx:id = "text1" text="Learning JavaFX"  fill="lightgreen"
+	style="-fx-font-weight: bold; -fx-font-size: 50; -fx-font-family: Verdana; -fx-font-style: italic"
+	stroke="darkblue" strokeWidth="2" 
+	underline="true"
+	x="50" y="50"/>
+	
+	<Text fx:id = "text2" text="Learning JavaFX"  fill="lightgreen"
+	style="-fx-font-weight: bold; -fx-font-size: 50; -fx-font-family: Verdana; -fx-font-style: italic"
+	stroke="darkblue" strokeWidth="2" 
+	underline="true"
+	x="50" y="150"/>
+	
+	<Text fx:id = "text3" text="Learning JavaFX"  fill="lightgreen"
+	style="-fx-font-weight: bold; -fx-font-size: 50; -fx-font-family: Verdana; -fx-font-style: italic"
+	stroke="darkblue" strokeWidth="2" 
+	underline="true"
+	x="50" y="250"/>
+
+</Group>

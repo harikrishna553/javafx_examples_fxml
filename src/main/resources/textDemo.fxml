@@ -3,7 +3,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<StackPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.controller.TextController">
+<StackPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.effects.controller.DisplacementMapController">
 	
 	<Text fx:id = "text" text="Learning JavaFX"  fill="lightgreen"
 	style="-fx-font-weight: bold; -fx-font-size: 50; -fx-font-family: Verdana; -fx-font-style: italic"
