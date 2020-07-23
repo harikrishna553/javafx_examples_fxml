@@ -1,0 +1,26 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+
+<HBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.layout.controller.HBoxController"
+	fx:id="hBox1" spacing="20" alignment="center">
+
+	<Rectangle fx:id="rectangle1" 
+		fill="salmon"
+		width="150" height="100" 
+	 />
+
+		
+	<Circle fx:id="circle1" 
+		radius="50" 
+		fill="green"/>
+	
+	<Ellipse fx:id="ellipse1" 
+		radiusX ="100" radiusY="50" 
+		fill="yellow"/>
+	
+</HBox>
+
+

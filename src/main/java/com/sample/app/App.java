@@ -1,5 +1,26 @@
 package com.sample.app;
 
+import javafx.scene.control.Label;
+import javafx.scene.effect.Blend;
+import javafx.scene.effect.Bloom;
+import javafx.scene.effect.BlurType;
+import javafx.scene.effect.BoxBlur;
+import javafx.scene.effect.ColorAdjust;
+import javafx.scene.effect.ColorInput;
+import javafx.scene.effect.DisplacementMap;
+import javafx.scene.effect.DropShadow;
+import javafx.scene.effect.GaussianBlur;
+import javafx.scene.effect.Glow;
+import javafx.scene.effect.InnerShadow;
+import javafx.scene.effect.Light;
+import javafx.scene.effect.Lighting;
+import javafx.scene.effect.MotionBlur;
+import javafx.scene.effect.PerspectiveTransform;
+import javafx.scene.effect.Reflection;
+import javafx.scene.effect.SepiaTone;
+import javafx.scene.effect.Shadow;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
 import javafx.scene.shape.Arc;
@@ -13,10 +34,6 @@ import javafx.scene.shape.Polygon;
 import javafx.scene.shape.Polyline;
 import javafx.scene.shape.QuadCurve;
 import javafx.scene.shape.Rectangle;
-import javafx.scene.text.Font;
-import javafx.scene.text.FontPosture;
-import javafx.scene.text.FontWeight;
-import javafx.scene.effect.*;
 
 public class App {
 
@@ -87,7 +104,22 @@ public class App {
 		ColorAdjust colorAdjust;
 		
 		ColorInput colorInput;
-
+		
+		Reflection reflection1  = new Reflection();
+		//Reflection reflection2 = new Reflection(topOffset, fraction, topOpacity, bottomOpacity)
+		
+		SepiaTone sepiaTone;
+		
+		DisplacementMap displacementMap;
+		
+		PerspectiveTransform perspectiveTranform;
+		
+		HBox hbox;
+		
+		Label label;
+		
+		VBox vbox;
+		
 		
 	}
 

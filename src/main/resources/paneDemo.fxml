@@ -1,0 +1,28 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+
+<Pane xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.layout.controller.PaneController"
+	fx:id="pane1">
+
+	<Rectangle fx:id="rectangle1" 
+		fill="salmon"
+		width="150" height="100" 
+		x="50" y = "50" />
+
+		
+	<Circle fx:id="circle1" 
+		centerX="350" centerY="120" 
+		radius="50" 
+		fill="green"/>
+	
+	<Ellipse fx:id="ellipse1" 
+		centerX="200" centerY="250" 
+		radiusX ="100" radiusY="50" 
+		fill="yellow"/>
+	
+</Pane>
+
+

@@ -1,0 +1,64 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.layout.controller.HBoxVBoxController"
+	fx:id="vBox1" spacing="20" alignment="center">
+	
+	<HBox fx:id="hBox1" spacing="20" alignment="center">
+
+		<Rectangle fx:id="rectangle1" 
+			fill="salmon"
+			width="50" height="50" 
+		 />
+		 
+		 <Rectangle fx:id="rectangle2" 
+			fill="lightgreen"
+			width="50" height="50" 
+		 />
+		 
+		 
+		 <Rectangle fx:id="rectangle3" 
+			fill="lightblue"
+			width="50" height="50" 
+		 />
+		
+	</HBox>
+
+
+	<HBox fx:id="hBox2" spacing="20" alignment="center">
+		<Ellipse fx:id="ellipse1" 
+			radiusX ="100" radiusY="50" 
+			fill="salmon"/>
+			
+		<Ellipse fx:id="ellipse2" 
+			radiusX ="100" radiusY="50" 
+			fill="lightgreen"/>
+			
+		<Ellipse fx:id="ellipse3" 
+			radiusX ="100" radiusY="50" 
+			fill="lightblue"/>
+			
+	</HBox>
+	
+	
+	<HBox fx:id="hBox3" spacing="20" alignment="center">
+
+		<Circle fx:id="circle1" 
+			radius="50" 
+			fill="salmon"/>
+		 
+		<Circle fx:id="circle2" 
+			radius="50" 
+			fill="lightgreen"/>
+		 
+		 <Circle fx:id="circle3" 
+			radius="50" 
+			fill="lightblue"/>
+		
+	</HBox>
+	
+	
+</VBox>

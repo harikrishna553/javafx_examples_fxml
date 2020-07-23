@@ -1,4 +1,4 @@
-package com.sample.app;
+package com.sample.app.layout;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -7,7 +7,10 @@ import javafx.scene.Scene;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
-public class CircleDemo extends Application {
+public class PaneDemo extends Application {
+
+	private static final String FXML_FILE = "/paneDemo.fxml";
+	private static final String STAGE_TITLE = "Pane Demo";
 
 	public static void main(String args[]) {
 		launch(args);
@@ -17,11 +20,11 @@ public class CircleDemo extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 
-		Parent root = (Parent) FXMLLoader.load(CircleDemo.class.getResource("/circleDemo.fxml"));
+		Parent root = (Parent) FXMLLoader.load(this.getClass().getResource(FXML_FILE));
 
-		Scene scene = new Scene(root, 600, 300, Color.WHITE);
+		Scene scene = new Scene(root, 500, 400, Color.LIGHTGRAY);
 
-		primaryStage.setTitle("Circle Demo");
+		primaryStage.setTitle(STAGE_TITLE);
 		primaryStage.setScene(scene);
 		primaryStage.show();
 	}
