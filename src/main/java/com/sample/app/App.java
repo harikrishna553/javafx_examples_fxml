@@ -20,6 +20,7 @@ import javafx.scene.effect.PerspectiveTransform;
 import javafx.scene.effect.Reflection;
 import javafx.scene.effect.SepiaTone;
 import javafx.scene.effect.Shadow;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.GridPane;
@@ -148,6 +149,9 @@ public class App {
 		Text text;
 		
 		BorderPane borderPane;
+		
+		AnchorPane anchorPane;
+		
 		
 	}
 
