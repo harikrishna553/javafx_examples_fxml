@@ -1,5 +1,6 @@
 package com.sample.app;
 
+import javafx.geometry.Orientation;
 import javafx.scene.control.Label;
 import javafx.scene.effect.Blend;
 import javafx.scene.effect.Bloom;
@@ -19,7 +20,12 @@ import javafx.scene.effect.PerspectiveTransform;
 import javafx.scene.effect.Reflection;
 import javafx.scene.effect.SepiaTone;
 import javafx.scene.effect.Shadow;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.FlowPane;
+import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
+import javafx.scene.layout.StackPane;
+import javafx.scene.layout.TilePane;
 import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
@@ -34,6 +40,7 @@ import javafx.scene.shape.Polygon;
 import javafx.scene.shape.Polyline;
 import javafx.scene.shape.QuadCurve;
 import javafx.scene.shape.Rectangle;
+import javafx.scene.text.Text;
 
 public class App {
 
@@ -120,8 +127,28 @@ public class App {
 		
 		VBox vbox;
 		
+		FlowPane horizontalFlowPane = new FlowPane();
+		horizontalFlowPane.setOrientation(Orientation.HORIZONTAL);
+		
+		FlowPane verticalFlowPane = new FlowPane();
+		verticalFlowPane.setOrientation(Orientation.VERTICAL);
+		
+		TilePane horizontalTilePane = new TilePane();
+		horizontalTilePane.setOrientation(Orientation.HORIZONTAL);
+		
+		TilePane verticalTilePane = new TilePane();
+		horizontalTilePane.setOrientation(Orientation.VERTICAL);
+		
+		GridPane gridPane = new GridPane();
+		
+		//gridPane.add(child, columnIndex, rowIndex, colspan, rowspan);
+		
+		StackPane stackPane = new StackPane();
+		
+		Text text;
+		
+		BorderPane borderPane;
 		
 	}
 
 }
-

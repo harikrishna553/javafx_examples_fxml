@@ -1,0 +1,22 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.layout.controller.StackPaneController"
+ 	fx:id="stackPane1">
+
+	<Rectangle fx:id="rectangle1" 
+		fill="lightsalmon"
+		width="300" height="200"
+		x="50" y = "50" 
+	 />
+	 
+	 <Ellipse fx:id="circle1" 
+	 	centerX="175" centerY="125"
+		radiusX ="150" radiusY="100"
+		fill="lightblue"
+	/>
+	
+
+</StackPane>

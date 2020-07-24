@@ -1,0 +1,39 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.layout.controller.GridPaneController"
+	fx:id="gridPane1" 
+	hgap="20" vgap="20">
+
+	<Rectangle fx:id="rectangle1" 
+		fill="black"
+		width="60" height="60" 
+	 />
+	 
+	<Circle fx:id="circle1" 
+		radius="40" 
+		fill="red"
+	/>
+		
+	<Ellipse fx:id="ellipse1" 
+		radiusX ="100" radiusY="40" 
+		fill="green" 
+	/>
+	
+	
+	<Rectangle fx:id="rectangle2" 
+		fill="blue"
+		width="60" height="60" 
+	 />
+	 
+	 <Circle fx:id="circle2" 
+		radius="40" 
+		fill="salmon"
+	/>
+	
+</GridPane>
+
+

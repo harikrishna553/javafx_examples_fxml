@@ -1,0 +1,53 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+
+<TilePane xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.layout.controller.HorizontalTilePaneController"
+	fx:id="tilePane1" orientation="horizontal" hgap="20" vgap="20">
+
+	<Rectangle fx:id="rectangle1" 
+		fill="salmon"
+		width="60" height="60" 
+	 />
+	 
+	 <Rectangle fx:id="rectangle1" 
+		fill="green"
+		width="60" height="60" 
+	 />
+	 
+	 <Rectangle fx:id="rectangle1" 
+		fill="blue"
+		width="60" height="60" 
+	 />
+
+		
+	<Circle fx:id="circle1" 
+		radius="40" 
+		fill="salmon"/>
+		
+	<Circle fx:id="circle1" 
+		radius="40" 
+		fill="green"/>
+		
+	<Circle fx:id="circle1" 
+		radius="40" 
+		fill="blue"/>
+		
+	
+	<Ellipse fx:id="ellipse1" 
+		radiusX ="60" radiusY="40" 
+		fill="salmon"/>
+		
+	<Ellipse fx:id="ellipse1" 
+		radiusX ="60" radiusY="40" 
+		fill="green"/>
+		
+	<Ellipse fx:id="ellipse1" 
+		radiusX ="60" radiusY="40" 
+		fill="blue"/>
+	
+</TilePane>
+
+
