@@ -1,6 +1,7 @@
 package com.sample.app;
 
 import javafx.geometry.Orientation;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.effect.Blend;
 import javafx.scene.effect.Bloom;
@@ -153,6 +154,9 @@ public class App {
 		AnchorPane anchorPane;
 		
 		Label label1;
+		
+		Button button1;
+		
 		
 		
 	}
