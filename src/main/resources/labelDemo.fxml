@@ -1,0 +1,23 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.widgets.controller.LabelController"
+	fx:id="vBox1" spacing="20" alignment="center">
+	
+	<Label fx:id="label1" text="Simple Text"/>
+	<Label fx:id="label2" text="Simple Italic Text"/>
+	<Label fx:id="label3" text="Top left aligned Text"/>
+	<Label fx:id="label4" text="Blue colored text" textFill="blue"/>
+	<Label fx:id="label5" text="Text underlined" textFill="red" underline="true"/>
+	
+	<Label fx:id="label6" text="This text will be wrapped in multiple lines" textFill="red" 
+		underline="true"
+		wrapText="true"/>
+		
+	<Label fx:id="label7" text="Java Icon" textFill="green" wrapText="true"/>
+	
+</VBox>

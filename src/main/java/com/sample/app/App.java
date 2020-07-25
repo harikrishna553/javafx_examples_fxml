@@ -152,6 +152,8 @@ public class App {
 		
 		AnchorPane anchorPane;
 		
+		Label label1;
+		
 		
 	}
 
