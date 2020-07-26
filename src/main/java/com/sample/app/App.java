@@ -2,7 +2,10 @@ package com.sample.app;
 
 import javafx.geometry.Orientation;
 import javafx.scene.control.Button;
+import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
+import javafx.scene.control.RadioButton;
+import javafx.scene.control.ToggleButton;
 import javafx.scene.effect.Blend;
 import javafx.scene.effect.Bloom;
 import javafx.scene.effect.BlurType;
@@ -157,8 +160,11 @@ public class App {
 		
 		Button button1;
 		
+		RadioButton radioButton1;
 		
+		ToggleButton toggleButton1;
 		
+		CheckBox checkBox;
 	}
 
 }

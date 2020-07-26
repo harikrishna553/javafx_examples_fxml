@@ -1,0 +1,36 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.widgets.controller.BgColorChooserUsingRadioButtonController"
+	fx:id="vBox1" spacing="20" alignment="center">
+	
+	<HBox fx:id="lableHBox"> 
+		<Label fx:id="label1" text="Click on a button to reflect the same background color" wrapText="true"/>
+	</HBox>
+	
+	<HBox fx:id="colorChooserHBox">
+		<VBox>
+			<RadioButton fx:id="red" text="red"/>
+			<RadioButton fx:id="green" text="green"/>
+			<RadioButton fx:id="blue" text="blue"/>
+		</VBox>
+		
+		<VBox>
+			<RadioButton fx:id="azure" text="azure"/>
+			<RadioButton fx:id="aqua" text="aqua"/>
+			<RadioButton fx:id="black" text="black"/>
+		</VBox>
+		
+		<VBox>
+			<RadioButton fx:id="brown" text="brown"/>
+			<RadioButton fx:id="lightsalmon" text="lightsalmon"/>
+			<RadioButton fx:id="lightgreen" text="lightgreen"/>
+		</VBox>
+	</HBox>
+	
+	
+</VBox>
