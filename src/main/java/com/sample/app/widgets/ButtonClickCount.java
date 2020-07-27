@@ -47,7 +47,7 @@ public class ButtonClickCount extends Application {
 		hBox2.setSpacing(10);
 		hBox2.setPadding(new Insets(20, 20, 20, 20));
 		hBox2.getChildren().addAll(button1, button2);
-
+		
 		button1.setOnAction((event) -> {
 			Integer userData = (Integer) button1.getUserData();
 			userData += 1;

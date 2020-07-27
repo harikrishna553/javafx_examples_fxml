@@ -1,0 +1,40 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.widgets.controller.CheckBoxController"
+	fx:id="vBox1" spacing="20" alignment="center">
+	
+	<HBox fx:id="lableHBox"> 
+		<Label fx:id="title" text="Select the vegetables" wrapText="true"/>
+	</HBox>
+	
+	<HBox fx:id="vegetableChooserHBox">
+		<VBox>
+			<CheckBox fx:id="broccoli" text="broccoli"/>
+			<CheckBox fx:id="corn" text="corn"/>
+			<CheckBox fx:id="cucumber" text="cucumber"/>
+		</VBox>
+		
+		<VBox>
+			<CheckBox fx:id="lettuce" text="lettuce"/>
+			<CheckBox fx:id="pumpkin" text="pumpkin"/>
+			<CheckBox fx:id="pumpkin" text="pumpkin"/>
+		</VBox>
+		
+		<VBox>
+			<CheckBox fx:id="beetroot" text="beetroot"/>
+			<CheckBox fx:id="sprouts" text="sprouts"/>
+			<CheckBox fx:id="carrot" text="carrot"/>
+		</VBox>
+	</HBox>
+	
+	<HBox fx:id="lableHBox"> 
+		<Label fx:id="selectedVegetables" text="" wrapText="true"/>
+	</HBox>
+	
+	
+</VBox>

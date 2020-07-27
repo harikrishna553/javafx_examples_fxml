@@ -3,6 +3,7 @@ package com.sample.app;
 import javafx.geometry.Orientation;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
+import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.ToggleButton;
@@ -165,6 +166,8 @@ public class App {
 		ToggleButton toggleButton1;
 		
 		CheckBox checkBox;
+		
+		ChoiceBox choiceBox;
 	}
 
 }
