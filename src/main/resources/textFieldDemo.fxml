@@ -1,0 +1,34 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.widgets.controller.TextFieldController"
+	fx:id="container" spacing="20" alignment="center"
+	style="-fx-background-color:white">
+
+	<HBox fx:id="titleHBox">
+		<Label fx:id="title" text="Please enter a number" textFill="blue" 
+			wrapText="true" 
+		/>
+		
+		<TextField fx:id="textField" />
+		
+	</HBox>
+	
+	<HBox fx:id="buttonHBox">
+		<Button fx:id="squareButton" text="square"/> 
+		<Button fx:id="cubeButton" text="cube"/> 
+	</HBox>
+	
+	<HBox fx:id="resultHBox">
+		<Label fx:id="result" textFill="blue" 
+			underline="true"
+			wrapText="true" 
+		/>
+	</HBox>
+	
+</VBox>
+
+
