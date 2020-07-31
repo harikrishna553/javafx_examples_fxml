@@ -1,0 +1,42 @@
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.sample.app.widgets.controller.SliderDemoController"
+	fx:id="vBox1"
+	spacing="30">
+	
+	<padding>
+		<Insets top="20" right="20" bottom="10" left = "30" />
+	</padding>
+	
+	<effect>
+	 	<DropShadow offsetX="3" offsetY="3">
+	 		<color>
+	 			<Color red="1" green="0" blue="0" opacity="0.7"/>
+	 		</color>
+	 	</DropShadow>
+	 </effect>
+	 
+	 <HBox>
+	 <Text fx:id = "text" text="Learning JavaFX"  fill="red"
+		style="-fx-font-weight: bold; -fx-font-size: 50; -fx-font-family: Verdana; -fx-font-style: italic"
+		stroke="darkblue" strokeWidth="2" 
+		underline="true"
+		opacity="0.3"/>
+	 </HBox>
+	
+	<HBox>
+	 	<Slider fx:id="slider"
+	 		min="0" max="1" value = "0"
+	 		showTickLabels="true"
+	 		showTickMarks= "true" 
+	 		style="-fx-background-color:palegreen"
+	 		/>
+	 </HBox>
+	
+</VBox>

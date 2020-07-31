@@ -6,7 +6,9 @@ import javafx.scene.control.CheckBox;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
+import javafx.scene.control.PasswordField;
 import javafx.scene.control.RadioButton;
+import javafx.scene.control.Slider;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.effect.Blend;
@@ -167,6 +169,7 @@ public class App {
 		
 		ToggleButton toggleButton1;
 		
+		PasswordField passwordField;
 		CheckBox checkBox;
 		
 		ChoiceBox choiceBox;
@@ -174,6 +177,10 @@ public class App {
 		ComboBox comboBox;
 		
 		TextField textField;
+		
+		Slider slider;
+		
+		
 	}
 
 }
