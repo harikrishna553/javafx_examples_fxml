@@ -5,13 +5,16 @@ import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.ComboBox;
+import javafx.scene.control.Hyperlink;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.ProgressIndicator;
 import javafx.scene.control.RadioButton;
 import javafx.scene.control.Slider;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleButton;
+import javafx.scene.control.ToolBar;
 import javafx.scene.effect.Blend;
 import javafx.scene.effect.Bloom;
 import javafx.scene.effect.BlurType;
@@ -182,6 +185,14 @@ public class App {
 		Slider slider;
 		
 		ProgressIndicator progressIndicator;
+		
+		TextArea textArea;
+		
+		Hyperlink hyperLink;
+		
+		ToolBar toolBar;
+		
+		
 		
 	}
 
