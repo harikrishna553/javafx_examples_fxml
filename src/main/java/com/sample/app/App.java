@@ -1,7 +1,10 @@
 package com.sample.app;
 
 import javafx.geometry.Orientation;
+import javafx.scene.control.Alert;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.control.Button;
+import javafx.scene.control.ButtonType;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.ComboBox;
@@ -14,6 +17,7 @@ import javafx.scene.control.RadioButton;
 import javafx.scene.control.Slider;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
+import javafx.scene.control.TextInputDialog;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.control.ToolBar;
 import javafx.scene.control.TreeItem;
@@ -201,7 +205,12 @@ public class App {
 		TreeView treeView;
 		
 		TreeItem treeItem;
+		
+		Alert alert = new Alert(AlertType.INFORMATION);
+		
+		ButtonType buttonType;
 
+		TextInputDialog textInputDialog;
 	}
 
 }
